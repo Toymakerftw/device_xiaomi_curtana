@@ -1,2 +1,6 @@
 # PixelFP
 ro.boot.fingerprint=google/sunfish/sunfish:11/RP1A.201005.006/6828489:user/release-keys
+
+# Graphics
+debug.gralloc.enable_fb_ubwc=1
+
