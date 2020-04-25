@@ -220,3 +220,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.zram.mark_idle_delay_mins=60 \
     ro.zram.first_wb_delay_mins=180 \
     ro.zram.periodic_wb_delay_hours=24
+
+# Dalvik
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+     dalvik.vm.dex2oat64.enabled=true
