@@ -43,6 +43,9 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 QCOM_SOONG_NAMESPACE := $(LOCAL_PATH)
 
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/google/pixel
+
 # Permissions
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml
@@ -411,7 +414,8 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.3-service.xiaomi_sm6250-libperfmgr
+    android.hardware.power@1.3-service.xiaomi_sm6250-libperfmgr \
+    android.hardware.power.stats@1.0-service.xiaomi_sm6250
 
 # Public Libraries
 PRODUCT_COPY_FILES += \
