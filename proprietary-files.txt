@@ -1291,3 +1291,9 @@ vendor/lib/libmm-hdcpmgr.so
 vendor/lib/libwfdhdcpcp.so
 vendor/lib/libwfdhdcpservice_proprietary.so
 vendor/lib/libwfdmodulehdcpsession.so
+
+# Battery services
+vendor/bin/batteryd
+vendor/bin/batterysecret
+vendor/etc/init/init.batteryd.rc
+vendor/etc/init/init.batterysecret.rc
