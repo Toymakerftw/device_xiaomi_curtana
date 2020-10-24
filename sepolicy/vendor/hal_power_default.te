@@ -14,3 +14,7 @@ allow hal_power_default latency_device:chr_file rw_file_perms;
 
 # The following folder is incidentally accessed by hal_power_default and is not needed.
 dontaudit hal_power_default cgroup:file read;
+
+r_dir_file(hal_power_default sysfs_kgsl)
+allow hal_power_default sysfs_kgsl:file r_file_perms;
+allow hal_power_default sysfs_kgsl:file rw_file_perms;
