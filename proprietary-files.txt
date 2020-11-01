@@ -649,12 +649,6 @@ vendor/firmware/a640_gmu.bin
 vendor/firmware/leia_pfp_470.fw
 vendor/firmware/leia_pm4_470.fw
 
-# Health
-vendor/lib64/libsystem_health_mon.so
-vendor/lib/libsystem_health_mon.so
-vendor/bin/hw/android.hardware.health@2.0-service
-vendor/etc/init/android.hardware.health@2.0-service.rc
-
 # HotwordEnrollment
 -product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|495df1fc4c124e4ea1a88807a1bcc46c4f74961f
 -product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|ad134e5cbd3644c229bd82053019de0bb256b737
@@ -879,6 +873,7 @@ vendor/lib64/libril-qc-radioconfig.so
 vendor/lib64/libril-qcril-hook-oem.so
 vendor/lib64/librilqmiservices.so
 vendor/lib64/libsettings.so
+vendor/lib64/libsystem_health_mon.so
 vendor/lib64/qcrild_librilutils.so
 vendor/lib64/qtibus.so
 vendor/lib64/qtimutex.so
