@@ -113,13 +113,6 @@ start_msm_irqbalance_lito()
          fi
 }
 
-start_msm_irqbalance_atoll()
-{
-         if [ -f /vendor/bin/msm_irqbalance ]; then
-                start vendor.msm_irqbalance
-         fi
-}
-
 start_msm_irqbalance660()
 {
 	if [ -f /vendor/bin/msm_irqbalance ]; then
@@ -323,9 +316,6 @@ case "$target" in
         ;;
     "lito")
         start_msm_irqbalance_lito
-        ;;
-    "atoll")
-        start_msm_irqbalance_atoll
         ;;
     "msm8937")
         start_msm_irqbalance_8939
